@@ -5,7 +5,17 @@ A recap on RL used fo this exercises with the [cheatsheet](cheatsheet.pdf).
 More theory about Reinforcement Learning can be find [here](https://mitpress.mit.edu/books/reinforcement-learning-second-edition).
 
 
-## Temporal difference methods
+## OpenAI Gym Black Jack with Monte Carlo methods
+
+Using the Monte carlo methods, we will solve the [Black Jack environment](https://github.com/openai/gym/blob/master/gym/envs/toy_text/blackjack.py).
+
+`Monte_Carlo.ipynb` : the Jupyter notebook where Monte Carlo methods are used to solve the environment.
+
+`plot_util.py` : contains a plotting function for visualizing state-value functions and policies.
+
+![alt text](Images/Bj.jpg)
+
+## Temporal difference methods on OpenAI cliffwalking environment 
 
 Implementation of Sarsa, Q-Learning and Expected Sarsa in order to solve the [CliffWalking environment](https://github.com/openai/gym/blob/master/gym/envs/toy_text/cliffwalking.py).
 
