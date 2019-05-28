@@ -1,4 +1,4 @@
-# Reinforcement-learning-exercises-with-OpenAI-Gym
+# Reinforcement-learning-exercises-with-[OpenAI-Gym](https://gym.openai.com/docs/#spaces)
 
 A recap on RL used fo this exercises with the [cheatsheet](cheatsheet.pdf). 
 
