@@ -43,3 +43,12 @@ When you run `main.py`, the agent that specify in `agent.py` interacts with the 
 
 ![alt text](Images/taxi-v2.png)
 
+## Reinforcement learning in continuous spaces
+
+### Discretization
+
+Discretizing a continuous environement, ([MountainCar-v0](https://gym.openai.com/envs/MountainCar-v0/)) , in order to apply reinforcement learning algorithms.
+
+`Discretization.ipynb` : Implementation of the technique.
+
+![alt text](Images/MountainCar.PNG)
