@@ -52,3 +52,13 @@ Discretizing a continuous environement, ([MountainCar-v0](https://gym.openai.com
 `Discretization.ipynb` : Implementation of the technique.
 
 ![alt text](Images/MountainCar.PNG)
+
+### Tile Coding
+
+Tile coding is an innovative way of discretizing a continuous space that enables better generalization compared to a single grid-based approach. The fundamental idea is to create several overlapping grids or tilings; then for any given sample value, you need only check which tiles it lies in. You can then encode the original continuous value by a vector of integer indices or bits that identifies each activated tile.
+
+Tile coding on the [Acrobot-v1](https://gym.openai.com/envs/Acrobot-v1/) environement in order to apply rienforcement learning.
+
+`Tile_Coding_Solution.ipynb` : Implementation of the technique.
+
+![alt text](Images/Acrobot-v1.JPG)
