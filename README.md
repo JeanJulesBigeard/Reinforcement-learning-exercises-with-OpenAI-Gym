@@ -1,19 +1,25 @@
 # Reinforcement-learning-exercises-with-[OpenAI-Gym](https://gym.openai.com/docs/#spaces)
 
-A recap on RL used fo this exercises with the [cheatsheet](cheatsheet.pdf). 
+A recap on RL used for this exercises with the [cheatsheet](cheatsheet.pdf). 
 
 More theory about Reinforcement Learning can be find [here](https://mitpress.mit.edu/books/reinforcement-learning-second-edition).
 
+ `Monte_carlo.pdf` : Summary of the Monte Carlo method.
 
 ## OpenAI Gym Black Jack with Monte Carlo methods
 
 Using the Monte carlo methods, we will solve the [Black Jack environment](https://github.com/openai/gym/blob/master/gym/envs/toy_text/blackjack.py).
 
+![alt text](Images/Bj.jpg)
+
 `Monte_Carlo.ipynb` : the Jupyter notebook where Monte Carlo methods are used to solve the environment.
 
 `plot_util.py` : contains a plotting function for visualizing state-value functions and policies.
 
-![alt text](Images/Bj.jpg)
+Optimal policy we are looking for:
+
+![alt text](Images/optimal_policy.png)
+
 
 ## Temporal difference methods on OpenAI cliffwalking environment 
 
