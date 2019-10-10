@@ -27,11 +27,15 @@ Optimal policy we are looking for:
 
 Implementation of Sarsa, Q-Learning and Expected Sarsa in order to solve the [CliffWalking environment](https://github.com/openai/gym/blob/master/gym/envs/toy_text/cliffwalking.py).
 
+![alt text](Images/Cliff_walking_task.png)
+
 `Temporal_Difference_Methods.ipynb` : Implementation of the three methods.
 
 `plot_utils.py` : contains a plotting function for visualizing state-value functions and policies.
 
 `check_test.py` : contains unit tests to check the validity of your implementations.
+
+The goal is to obtain state-value functions for Sarsa, Q-learning and Expected Sarsa:
 
 ![alt text](Images/CliffWalking.JPG)
 
