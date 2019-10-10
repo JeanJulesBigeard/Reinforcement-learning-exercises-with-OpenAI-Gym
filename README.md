@@ -5,6 +5,7 @@ A recap on RL used for this exercises with the [cheatsheet](cheatsheet.pdf).
 More theory about Reinforcement Learning can be find [here](https://mitpress.mit.edu/books/reinforcement-learning-second-edition).
 
  `Monte_carlo.pdf` : Summary of the Monte Carlo method.
+ `Temporal difference methods summary.pdf` : Summary of the temporal difference methods.
 
 ## OpenAI Gym Black Jack with Monte Carlo methods
 
