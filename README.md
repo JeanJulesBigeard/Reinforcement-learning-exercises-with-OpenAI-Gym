@@ -22,6 +22,11 @@ Optimal policy we are looking for:
 
 ![alt text](Images/optimal_policy.png)
 
+The result we have:
+
+![alt text](Images/blackjack.png)
+
+![alt text](Images/bjpolicy.png)
 
 ## Temporal difference methods on OpenAI cliffwalking environment 
 
@@ -39,7 +44,9 @@ The goal is to obtain state-value functions for Sarsa, Q-learning and Expected S
 
 ![alt text](Images/CliffWalking.JPG)
 
+Average reward:
 
+![alt text](Images/reward_cliff.png)
 
 ## OpenAI Gym Taxi-v2 with Temporal difference methods
 
@@ -65,6 +72,18 @@ Discretizing a continuous environement, ([MountainCar-v0](https://gym.openai.com
 
 ![alt text](Images/MountainCar.PNG)
 
+Discretization process:
+
+![alt text](Images/discret.png)
+
+Score evolution while training:
+
+![alt text](Images/scores_discret.png)
+
+Q-Table result:
+
+![alt text](Images/q_table_disc.png)
+
 ### Tile Coding
 
 Tile coding is an innovative way of discretizing a continuous space that enables better generalization compared to a single grid-based approach. The fundamental idea is to create several overlapping grids or tilings; then for any given sample value, you need only check which tiles it lies in. You can then encode the original continuous value by a vector of integer indices or bits that identifies each activated tile.
@@ -74,3 +93,11 @@ Tile coding on the [Acrobot-v1](https://gym.openai.com/envs/Acrobot-v1/) environ
 `Tile_Coding_Solution.ipynb` : Implementation of the technique.
 
 ![alt text](Images/Acrobot-v1.JPG)
+
+Tile coding process:
+
+![alt text](Images/tile_coding.png)
+
+Score evolution while training:
+
+![alt text](Images/score_tc.png)
